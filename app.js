@@ -79,7 +79,7 @@ const version = "/api/v1";
 app.use(`${version}/auth`, auth);
 
 /* If routes not
-  found */
+  found  aloooooo*/
 app.all("*", (req, res, next) => {
   try {
     next({

@@ -10,6 +10,7 @@ const cors = require("cors");
 const morgan = require("morgan");
 const app = express(); // Make express app
 const fs = require("fs");
+const path = require("path");
 
 // CORS
 app.use(cors());

@@ -9,6 +9,7 @@ const helmet = require("helmet");
 const cors = require("cors");
 const morgan = require("morgan");
 const app = express(); // Make express app
+const fs = require("fs");
 
 // CORS
 app.use(cors());
